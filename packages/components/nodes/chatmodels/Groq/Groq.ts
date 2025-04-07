@@ -42,8 +42,9 @@ class Groq_ChatModels implements INode {
             {
                 label: 'Model Name',
                 name: 'modelName',
-                type: 'asyncOptions',
-                loadMethod: 'listModels',
+                type: 'string',
+             //   type: 'asyncOptions',
+             //   loadMethod: 'listModels',
                 placeholder: 'llama3-70b-8192'
             },
             {
